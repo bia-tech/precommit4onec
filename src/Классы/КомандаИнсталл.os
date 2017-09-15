@@ -107,7 +107,7 @@
 	Лог.Отладка("Создание файла pre-commit hook для %1", КаталогРепозитория);
 	ТекстPrecommtHook = Новый ТекстовыйДокумент;
 	ТекстPrecommtHook.УстановитьТекст(КомандаPrecommtHook);
-	ТекстPrecommtHook.Записать(ФайлPrecommtHook, КодировкаТекста.UTF8NoBOM);
+	ТекстPrecommtHook.Записать(ФайлPrecommtHook, КодировкаТекста.UTF8NoBOM, Символы.ПС);
 
 	Лог.Информация("Pre-commit hook для %1 создан", КаталогРепозитория);
 
