@@ -255,6 +255,8 @@
 	Список.Добавить("WSReferences", "WSReference");
 	Список.Добавить("XDTOPackages", "XDTOPackage");
 	Список.Добавить("ExternalDataSources", "ExternalDataSource");
+	Список.Добавить("ChartsOfAccounts", "ChartOfAccounts");
+	Список.Добавить("AccountingRegisters", "AccountingRegister");
 	Возврат Список;
 	
 КонецФункции
