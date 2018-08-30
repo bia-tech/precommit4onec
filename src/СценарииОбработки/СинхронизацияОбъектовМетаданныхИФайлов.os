@@ -250,6 +250,7 @@
 	Список.Добавить("SessionParameters", "SessionParameter");
 	Список.Добавить("SettingsStorages", "SettingsStorage");
 	Список.Добавить("StyleItems", "StyleItem");
+	Список.Добавить("Styles", "Style");
 	Список.Добавить("Subsystems", "Subsystem");
 	Список.Добавить("Tasks", "Task");
 	Список.Добавить("WebServices", "WebService");
